@@ -419,7 +419,7 @@ img {
   width: auto;
   /* IE8 */ }
 
-.content:after {
+#primary:after {
   content: "";
   display: table;
   clear: both; }
@@ -482,7 +482,7 @@ pre {
 code {
   overflow: hidden; }
 
-.wrap {
+#page {
   max-width: 1140px;
   max-width: 71.25rem;
   margin-left: auto;
@@ -492,17 +492,17 @@ code {
   background-origin: content-box, border-box;
   background-clip: content-box, border-box;
   background-position: left top; }
-  .wrap:after {
+  #page:after {
     content: " ";
     display: block;
     clear: both; }
 
-.content {
+#primary {
   width: 205.26316%;
   float: left;
   margin-right: 5.26316%; }
 
-.sidebar {
+#secondary {
   width: 32.20339%;
   float: right;
   margin-right: 0; }

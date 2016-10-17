@@ -14,7 +14,7 @@
 // Creates a context map
 $contexts: () !default;
 
-.wrap {
+#page {
   @include container(1140px 12);
 }
 
@@ -24,14 +24,14 @@ $contexts: () !default;
 // - gallery-item - takes up 4 of 8 columns, parent is content
 // Check out Chapter 15 for a refresher of the demo
 
-.content {
+#primary {
   // 8 columns of 12 columns
   @extend %cf;
   @include span(8);
   @include add-context(content, large, 8);
 }
 
-.sidebar {
+#secondary {
   // 4 colums of 12 columns
   @include span(4 of 12 last);
   @include add-context(sidebar, large, 4, last);
